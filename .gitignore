@@ -1,5 +1,7 @@
 /nuts_env
 /.idea
-/__pycache__
+/Nuts_Criteo/__pycache__
+/nuts_domo_gmail_daily/__pycache__
+/nuts_looker_data/__pycache__
 F:\work\Nuts\Nuts_Criteo\data.csv
 F:\work\Nuts\nuts_looker_data\data.csv
