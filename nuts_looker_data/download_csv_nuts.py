@@ -165,9 +165,9 @@ def run_task():
     ]
 
     check = True
-    rows = 100001
+    rows = 1000001
     rows_to_skip = 0
-    row_limit = 200000
+    row_limit = 2000000
 
     path = get_looker_data(access_token=get_looker_access_token(client_id=CLIENT_ID,
                                                                 client_secret=CLIENT_SECRET), look_id=2248,
@@ -200,7 +200,7 @@ def run_task():
         table = client.get_table(table_id)  # Make an API request.
         print(f"Loaded {table.num_rows} rows and {len(table.schema)} columns to {table_id}")
 
-        rows_to_skip += 100000
+        rows_to_skip += 1000000
 
         print(rows, '---rows')
         print(rows_to_skip, '---rows_to_skip')
